@@ -1,0 +1,72 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+main #cont{
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; */
+    text-align: center;
+    align-items: center;
+    padding: 2rem;
+    color: white;
+    background-color: rgb(48, 175, 63);
+    width: 35%;
+    border-radius: 10px;
+}
+main #cont h1{
+    font-size: 4rem;
+    color: red;
+    margin: 0;
+}
+main #cont span{
+    color: black;
+}
+main #cont h3{
+    text-align: left;
+    font-size: 1.8rem;
+}
+main #cont #but{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 2.3rem;
+    justify-content: center;
+    margin-bottom: 3rem;
+}
+#cont #card{
+    margin: 2rem 0rem;
+}
+main #cont h2{
+    font-size: 1.8rem;
+}
+main #but button{
+    width: 30%;
+    height: 3rem;
+    background-color: red;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    font-weight: 600;
+}
+ #cont  #new{
+    background-color: lawngreen;
+    color: black;
+    font-weight: 600;
+}
+main #but button:active{
+    background-color: red;
+}
+main #but #stand{
+    background-color: blue;
+    color: lawngreen;
+}
